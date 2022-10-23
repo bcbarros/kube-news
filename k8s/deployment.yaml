@@ -59,7 +59,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: savchs/kube-news:18
+          image: savchs/kube-news:latest
           ports:
           - containerPort: 8080
           env:
